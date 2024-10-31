@@ -4,12 +4,13 @@
   "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "cors": "^2.8.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.18.1"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
     "node",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
 }
